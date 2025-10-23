@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: django-ai-core
-  version: "0.1.4"
+  version: "0.1.5"
   python_min: '3.11'
 
 package:
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/django_ai_core-${{ version }}.tar.gz
-  sha256: 3e8ced754bd24428322584769584198d0877bce232d65cac3b0788aef47d82ca
+  sha256: a6c20b1fc29c7bed8fd3639a0898cbc91eb67da5f5762882d9b0880b6ab8678a
 
 build:
   number: 0
